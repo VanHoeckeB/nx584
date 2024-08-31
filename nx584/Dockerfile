@@ -5,6 +5,7 @@ FROM $BUILD_FROM
 
 #RUN pip3 install --upgrade pip
 
+RUN which git
 RUN git clone https://github.com/kk7ds/pynx584
 RUN pip3 install pynx584/
 
