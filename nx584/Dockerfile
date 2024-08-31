@@ -1,8 +1,8 @@
 ARG BUILD_FROM
 FROM $BUILD_FROM
 
-#RUN apk add python3 py3-pip git
-RUN apk add git
+RUN apk add python3 py3-pip git
+#RUN apk add git
 RUN pip3 install --upgrade pip
 
 RUN git clone https://github.com/kk7ds/pynx584
